@@ -1,0 +1,5 @@
+{
+  "name": "Planeta Vivo: Juegos Educativos",
+  "description": "Una aplicación web educativa e interactiva con juegos como Tres en Raya, Ahorcado y Jeopardy, impulsada por la API de Gemini para generar contenido dinámico y atractivo sobre los seres vivos y otros temas.",
+  "requestFramePermissions": []
+}
