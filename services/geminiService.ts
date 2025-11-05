@@ -35,7 +35,7 @@ export async function generateJeopardyBoard(): Promise<JeopardyCategory[]> {
     try {
         const response = await ai.models.generateContent({
             model: "gemini-2.5-flash",
-            contents: "Genera un tablero de Jeopardy para niños con 4 categorías y 4 preguntas por categoría. Los temas deben ser sobre ciencia, historia, geografía y animales. Los puntos deben ser 100, 200, 300, 400. Devuelve un JSON válido.",
+            contents: "Genera un tablero de Jeopardy para niños con 5 categorías y 4 preguntas por categoría. Los temas deben ser sobre ciencia, historia, geografía y animales. Los puntos deben ser 100, 200, 300, 400. Devuelve un JSON válido.",
             config: {
                 responseMimeType: "application/json",
                 responseSchema: {
